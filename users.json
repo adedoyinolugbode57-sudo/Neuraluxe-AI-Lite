@@ -1,0 +1,131 @@
+# fresh_users.py
+# -------------------
+# Neuraluxe-AI Fresh User Manager
+# Compact, lightweight, modular
+
+import json, os
+from datetime import datetime
+
+USERS_JSON = "users.json"  # fresh file
+FREE_USER_EMAIL = "adedoyinolugbode57@gmail.com"
+CHAT_HISTORY_LIMIT = 100  # keep last 100 chats
+DAILY_USAGE_LIMIT = 30    # keep 30 days of usage
+
+# -----------------------------
+# Load / Save Users
+# -----------------------------
+def load_users():
+    if not os.path.exists(USERS_JSON):
+        with open(USERS_JSON, "w") as f:
+            json.dump({}, f)
+    with open(USERS_JSON, "r") as f:
+        return json.load(f)
+
+def save_users(data):
+    with open(USERS_JSON, "w") as f:
+        json.dump(data, f, indent=2)
+
+# -----------------------------
+# User Initialization
+# -----------------------------
+def init_user(email):
+    users = load_users()
+    if email not in users:
+        users[email] = {
+            "profile": {
+                "is_full_access": email == FREE_USER_EMAIL,
+                "theme": "default",
+                "last_login": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            },
+            "analytics": {
+                "total_chats": 0,
+                "total_sessions": 0,
+                "daily_usage": {}
+            },
+            "chats": [],
+            "novels_accessed": []
+        }
+        save_users(users)
+    return users[email]
+
+# -----------------------------
+# Update Profile
+# -----------------------------
+def update_theme(email, theme):
+    users = load_users()
+    users[email]["profile"]["theme"] = theme
+    save_users(users)
+
+def update_last_login(email):
+    users = load_users()
+    users[email]["profile"]["last_login"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    save_users(users)
+
+# -----------------------------
+# Chat Handling
+# -----------------------------
+def add_chat(email, message, reply=None):
+    users = load_users()
+    user_data = users[email]
+
+    chats = user_data.setdefault("chats", [])
+    chats.append({
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "message": message,
+        "reply_cached": reply
+    })
+    
+    if len(chats) > CHAT_HISTORY_LIMIT:
+        user_data["chats"] = chats[-CHAT_HISTORY_LIMIT:]
+
+    user_data["analytics"]["total_chats"] += 1
+    today = datetime.now().strftime("%Y-%m-%d")
+    daily = user_data["analytics"].setdefault("daily_usage", {})
+    daily[today] = daily.get(today, 0) + 1
+    
+    if len(daily) > DAILY_USAGE_LIMIT:
+        oldest_days = sorted(daily.keys())[:-DAILY_USAGE_LIMIT]
+        for d in oldest_days:
+            del daily[d]
+
+    save_users(users)
+
+# -----------------------------
+# Novel Access
+# -----------------------------
+def add_novel_access(email, novel_id):
+    users = load_users()
+    user_data = users[email]
+    novels = user_data.setdefault("novels_accessed", [])
+    novels.append({
+        "novel_id": novel_id,
+        "last_read": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    })
+    save_users(users)
+
+# -----------------------------
+# Analytics
+# -----------------------------
+def get_mini_analytics(email):
+    users = load_users()
+    user_data = users[email]
+    return {
+        "total_chats": user_data["analytics"]["total_chats"],
+        "total_sessions": user_data["analytics"]["total_sessions"],
+        "daily_usage": user_data["analytics"]["daily_usage"],
+        "status": "Full Access" if user_data["profile"]["is_full_access"] else "Free"
+    }
+
+# -----------------------------
+# Standalone Test
+# -----------------------------
+if __name__ == "__main__":
+    email = input("Enter user email: ").strip()
+    init_user(email)
+    add_chat(email, "Hello AI!", "Hi there! 😊")
+    add_novel_access(email, "novel_001")
+    update_theme(email, "neon")
+    update_last_login(email)
+    analytics = get_mini_analytics(email)
+    print(f"\n📊 Mini Analytics for {email}:")
+    print(analytics)
