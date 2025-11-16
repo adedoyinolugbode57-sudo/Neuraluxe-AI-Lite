@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuraluxe-AI</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #0ff2, #000 80%);
+      color: #fff;
+      font-family: "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .logo-container {
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #00eaff, #007bff);
+      box-shadow: 0 0 20px #00eaff, 0 0 60px #007bff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .logo::before {
+      content: '';
+      position: absolute;
+      width: 110%;
+      height: 110%;
+      background: conic-gradient(from 0deg, #0ff, #007bff, #0ff);
+      animation: rotate 4s linear infinite;
+      filter: blur(6px);
+      z-index: 0;
+    }
+
+    .logo-text {
+      position: relative;
+      z-index: 1;
+      font-weight: bold;
+      font-size: 22px;
+      color: #fff;
+      text-shadow: 0 0 10px #0ff, 0 0 30px #007bff;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 2em;
+      background: linear-gradient(90deg, #0ff, #00eaff, #007bff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 3s infinite linear;
+    }
+
+    p {
+      color: #aaa;
+      max-width: 600px;
+      text-align: center;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 30px;
+      border: none;
+      background: linear-gradient(90deg, #00eaff, #007bff);
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 12px #00eaff66;
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #00bfff, #0055ff);
+      transform: scale(1.05);
+      box-shadow: 0 0 18px #00bfff;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 15px;
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    @keyframes rotate {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes shimmer {
+      0% { background-position: -200px 0; }
+      100% { background-position: 200px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-container">
+    <div class="logo">
+      <span class="logo-text">N•AI</span>
+    </div>
+    <h1>Neuraluxe-AI</h1>
+    <p>
+      Experience next-generation intelligence with real-time performance,
+      multilingual tools, and a futuristic neon interface — all in one lightweight platform.
+    </p>
+
+    <div class="buttons">
+      <button class="btn" onclick="location.href='app.html'">Launch App 🚀</button>
+      <button class="btn" onclick="location.href='about.html'">About 💡</button>
+      <button class="btn" onclick="location.href='login.html'">Login 🔐</button>
+    </div>
+  </div>
+
+  <div class="footer">© 2025 Neuraluxe-AI | Powered by Neura-Engine v10k.Hyperluxe</div>
+
+</body>
+</html>

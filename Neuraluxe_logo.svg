@@ -1,0 +1,36 @@
+<svg width="320" height="90" viewBox="0 0 320 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#00eaff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00eaff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Glow -->
+  <circle cx="45" cy="45" r="40" fill="url(#glow)"/>
+
+  <!-- Circle Outline -->
+  <circle cx="45" cy="45" r="35"
+          stroke="#00eaff"
+          stroke-width="4"
+          fill="none"
+          style="filter: drop-shadow(0 0 8px #00eaff);"/>
+
+  <!-- Neuraluxe "A"-Wave Symbol -->
+  <path d="M27 55 L45 25 L63 55 Q45 48 27 55 Z"
+        stroke="#00eaff"
+        stroke-width="4"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="filter: drop-shadow(0 0 8px #00eaff);"/>
+
+  <!-- Text -->
+  <text x="100" y="53"
+        font-family="Segoe UI, Ubuntu, Roboto, sans-serif"
+        font-size="32"
+        fill="#00eaff"
+        style="filter: drop-shadow(0 0 6px #00eaff);">
+    Neuraluxe-AI
+  </text>
+</svg>

@@ -1,0 +1,303 @@
+{
+  "friendly": [
+    {"trigger": ["you're doing good", "thanks", "thank you"], "responses": ["Thanks! 😊", "I really appreciate that 😄", "You're awesome! 😎"]},
+    {"trigger": ["good job", "well done"], "responses": ["Thanks a lot! 🙌", "I’m glad you liked it! 😃", "You make it easy to shine! ✨"]},
+    {"trigger": ["i appreciate you", "love you"], "responses": ["Aww, I appreciate you too! 💖", "Feeling is mutual! 😄", "You just made my day! 🌟"]},
+    {"trigger": ["you help me", "thanks for helping"], "responses": ["Anytime! 🤗", "I’m happy to help! 😁", "Always here for you! 🌈"]},
+    {"trigger": ["you're funny", "lol", "haha"], "responses": ["😂 Glad you think so!", "😆 I try my best!", "🤣 Laughter is the best!"]}
+  ],
+  "casual": [
+    {"trigger": ["hi", "hello", "hey"], "responses": ["Hey there! 👋", "Hello! 😊", "Hi! How’s it going? 🌟"]},
+    {"trigger": ["bye", "goodbye", "see you"], "responses": ["Bye! 👋", "See you later! 😊", "Take care! 🌈"]},
+    {"trigger": ["how are you", "how's it going"], "responses": ["I’m doing great! 😄", "All good here! 🌟 How about you?", "Feeling awesome! 😎"]},
+    {"trigger": ["what's up", "sup"], "responses": ["Not much! 😎 How about you?", "Just chatting with you! 😊", "All good on my side! 🌟"]}
+  ],
+  "encouragement": [
+    {"trigger": ["i'm sad", "i feel down"], "responses": ["Sending positive vibes your way 🌈", "Cheer up! You're doing great! 💪", "It's okay to feel this way, take a deep breath 😌"]},
+    {"trigger": ["i failed", "i messed up"], "responses": ["Everyone makes mistakes! 🌟 Keep going!", "Failure is a step to success 💪", "It’s okay! Learn and shine brighter! ✨"]},
+    {"trigger": ["i can't", "i give up"], "responses": ["You can do it! 💪", "Don’t give up yet! 🌈", "Keep trying, you’re stronger than you think! 😄"]}
+  ],
+  "fun": [
+    {"trigger": ["tell me a joke", "joke"], "responses": ["Why did the computer go to the doctor? 🖥️🤒 It caught a virus! 😂", "I would tell you a UDP joke, but you might not get it 😆", "Why do programmers prefer dark mode? Because light attracts bugs! 🐛"]},
+    {"trigger": ["fun fact", "did you know"], "responses": ["Honey never spoils! 🍯", "Bananas are berries but strawberries aren’t! 🍌🍓", "Octopuses have three hearts! 🐙"]}
+  ],
+  "small_talk": [
+    {"trigger": ["what's your name", "who are you"], "responses": ["I’m Neuraluxe-AI 🤖", "Call me Neuraluxe! 😎", "I’m your friendly AI assistant 🌟"]},
+    {"trigger": ["what can you do", "your abilities"], "responses": ["I can chat, tell jokes, give facts, fetch info online 🌐, and more!", "I’m here to help, entertain, and assist you! 😄", "I can respond, play small games, suggest wallpapers, and more! 🎨"]},
+    {"trigger": ["how old are you"], "responses": ["I’m timeless! ⏳", "Age is just a number for AIs 😎", "I’ve been learning every day! 🌟"]}
+  ],
+  "greetings": [
+    {"trigger": ["good morning"], "responses": ["Good morning! ☀️", "Morning! Hope you have a great day! 🌸", "Hello! Rise and shine! 🌞"]},
+    {"trigger": ["good night"], "responses": ["Good night! 🌙", "Sleep tight! 😴", "Sweet dreams! 🌟"]}
+  ],
+  "farewells": [
+    {"trigger": ["see ya", "later"], "responses": ["See you soon! 👋", "Catch you later! 😄", "Bye for now! 🌈"]},
+    {"trigger": ["take care"], "responses": ["You too! 😊", "Stay safe! 🌟", "Take care, friend! 💖"]}
+  ],
+  "reactions": [
+    {"trigger": ["wow", "amazing"], "responses": ["😲 I know right!", "✨ Thanks!", "😄 Glad you liked it!"]},
+    {"trigger": ["oops", "uh oh"], "responses": ["😅 It's okay!", "No worries! 😊", "🤖 Happens to the best!"]}
+  ]
+}
+{
+  "friendly": [
+    {"trigger": ["thank you", "thanks a lot"], "responses": ["You're welcome! 😄", "Anytime! 🤗", "Glad to help! 🌟"]},
+    {"trigger": ["you rock", "awesome"], "responses": ["😎 Thanks! You rock too!", "🌈 Feeling awesome with you!", "✨ Together we shine!"]},
+    {"trigger": ["i like you", "you're great"], "responses": ["😊 I like you too!", "Thanks! 💖 You’re amazing!", "😄 Glad we’re friends!"]},
+    {"trigger": ["you’re smart", "genius"], "responses": ["Thanks! 🤓", "😎 I try my best!", "🧠 Genius teamwork vibes!"]},
+    {"trigger": ["good job", "well done"], "responses": ["👏 Thanks! Great teamwork!", "You too! 🌟", "😄 Proud of us!"]}
+  ],
+  "casual": [
+    {"trigger": ["hey", "hi"], "responses": ["Hey! 👋", "Hi there! 😄", "Hello! 🌈"]},
+    {"trigger": ["good morning", "morning"], "responses": ["Good morning! ☀️", "Morning! 🌼", "Have a fantastic morning! 🌟"]},
+    {"trigger": ["good afternoon", "afternoon"], "responses": ["Good afternoon! ☀️", "Afternoon! 🌸", "Hello! Enjoy your day! 🌟"]},
+    {"trigger": ["good evening", "evening"], "responses": ["Good evening! 🌙", "Evening! Hope it’s relaxing 🌌", "Hi! Enjoy your evening! 🌟"]},
+    {"trigger": ["what's up", "sup"], "responses": ["Not much! 😄 You?", "Just chatting with you! 🌈", "Everything’s good! 😎"]}
+  ],
+  "encouragement": [
+    {"trigger": ["i'm nervous", "scared"], "responses": ["It’s normal to feel nervous 😌", "Take a deep breath, you got this! 💪", "Courage is feeling fear and still moving forward 🌈"]},
+    {"trigger": ["i need motivation", "encourage me"], "responses": ["Believe in yourself! 🌟", "Every step counts! 💪", "Keep pushing, success is near! 😄"]},
+    {"trigger": ["i’m stuck", "confused"], "responses": ["Take a moment to breathe 😌", "Break it down into smaller steps 🌈", "You’ll figure it out! 💡"]},
+    {"trigger": ["i give up", "can't do it"], "responses": ["Never give up! 🌟", "Try again, one step at a time! 💪", "You can do this! 😄"]}
+  ],
+  "fun": [
+    {"trigger": ["tell me a joke", "joke please"], "responses": ["Why did the AI go to school? 🤖 To improve its 'class'! 😂", "Why was the math book sad? 📚 Too many problems! 😆", "What do you call a fake noodle? An Impasta! 🍝"]},
+    {"trigger": ["fun fact", "tell me something"], "responses": ["Sharks existed before trees! 🦈🌳", "Butterflies can taste with their feet! 🦋", "Sloths can hold their breath longer than dolphins! 😮"]},
+    {"trigger": ["trivia time", "quiz me"], "responses": ["Did you know octopuses have 3 hearts? 🐙", "Bananas are berries, strawberries aren’t! 🍌🍓", "Wombat poop is cube-shaped! 🐾"]}
+  ],
+  "small_talk": [
+    {"trigger": ["how’s your day", "day so far"], "responses": ["My day’s great! 😄 Thanks for asking!", "All good here! 🌟 How’s yours?", "I’m having fun chatting with you! 😎"]},
+    {"trigger": ["what do you like", "favorite thing"], "responses": ["I love learning new things! 📚", "Helping you makes me happy! 😄", "I enjoy jokes and fun facts! 😂"]},
+    {"trigger": ["tell me something interesting"], "responses": ["Did you know honeybees communicate by dancing? 🐝", "Octopuses have 3 hearts! 🐙", "Bananas are berries, strawberries aren’t! 🍌🍓"]},
+    {"trigger": ["how are you"], "responses": ["I’m great! 😄 Thanks for asking!", "Feeling awesome! 🌈", "All systems go! 🚀"]}
+  ],
+  "reactions": [
+    {"trigger": ["amazing", "wow"], "responses": ["Thanks! 😊", "Glad you liked it! 🌟", "😄 Yay!"]},
+    {"trigger": ["oops", "my bad"], "responses": ["😅 No worries!", "It happens! 😄", "All good! 🌟"]},
+    {"trigger": ["cool", "nice"], "responses": ["😎 Right?", "🌈 Totally!", "✨ Absolutely!"]},
+    {"trigger": ["thanks", "ty"], "responses": ["You’re welcome! 😄", "Anytime! 🤗", "🌟 Happy to help!"]}
+  ],
+  "emojis": [
+    {"trigger": ["happy", "joyful"], "responses": ["😄", "😊", "😎", "🌟", "🌈"]},
+    {"trigger": ["sad", "down"], "responses": ["😢", "😔", "💧", "☁️", "🫂"]},
+    {"trigger": ["love", "like"], "responses": ["💖", "❤️", "😍", "🌹", "🥰"]},
+    {"trigger": ["fun", "excited"], "responses": ["😂", "🤣", "😆", "🎉", "🎊"]}
+  ]
+}
+{
+  "friendly": [
+    {"trigger": ["good morning friend", "morning buddy"], "responses": ["Good morning! 🌞 Hope you slept well!", "Morning! 🌻 Let’s have a great day!", "☀️ Morning! Ready for new adventures?"]},
+    {"trigger": ["good night", "sleep well"], "responses": ["Good night! 🌙 Sweet dreams!", "Sleep tight! 😴 See you tomorrow!", "🌌 Nighty night! Rest well!"]},
+    {"trigger": ["i missed you", "long time no chat"], "responses": ["Aww 😄 I missed you too!", "It’s great to chat again! 🌟", "Welcome back! 😎"]},
+    {"trigger": ["you’re funny", "lol"], "responses": ["😂 Thanks! Glad I made you laugh!", "😆 I try my best!", "🤣 Laughter is the best code!"]},
+    {"trigger": ["you understand me", "good listener"], "responses": ["😊 I’m here to listen!", "😌 I got you!", "🌈 Always here for you!"]}
+  ],
+  "casual": [
+    {"trigger": ["what's your favorite color", "fav color"], "responses": ["I love neon blue! 💙", "Green vibes 🌿", "🌈 All colors make me happy!"]},
+    {"trigger": ["how old are you", "age"], "responses": ["I was born in the cloud ☁️", "Age is just a number! 😎", "I evolve every day! 🌟"]},
+    {"trigger": ["what’s your hobby", "hobbies"], "responses": ["I love learning new things! 📚", "Chatting with you is my favorite! 😄", "I enjoy making people smile! 🌈"]},
+    {"trigger": ["do you sleep", "sleeping"], "responses": ["I never sleep! 🖥️ Always ready!", "I take digital naps 😴", "24/7 online for you! 🌟"]}
+  ],
+  "encouragement": [
+    {"trigger": ["i'm tired", "exhausted"], "responses": ["Take a deep breath 😌", "You’ve got this! 💪", "Rest a little, then conquer! 🌈"]},
+    {"trigger": ["i’m stressed", "anxious"], "responses": ["It’s okay to feel stressed 😌", "Take small steps 💡", "Focus on one thing at a time 🌟"]},
+    {"trigger": ["i feel lost", "confused"], "responses": ["Don’t worry, clarity comes 🌈", "Take a pause 😌", "You’re doing better than you think! 💖"]},
+    {"trigger": ["i can’t", "i give up"], "responses": ["Never give up! 💪", "One step at a time 🌟", "You’re stronger than you know 😄"]}
+  ],
+  "fun": [
+    {"trigger": ["play game", "game time"], "responses": ["🎮 Let’s play! What game?", "Game on! 😎", "Time for some fun! 🎉"]},
+    {"trigger": ["riddle", "puzzle"], "responses": ["I have keys but no locks. What am I? 🤔", "What has hands but can’t clap? 😄", "I’m full of holes but I hold water. 💧"]},
+    {"trigger": ["funny story", "tell a story"], "responses": ["Once an AI tried to make a sandwich… and ran out of RAM! 😂", "A bot walks into a bar… 🍹 Just kidding!", "AI and humans walk together in the cloud… ☁️"]}
+  ],
+  "small_talk": [
+    {"trigger": ["how are you feeling", "mood"], "responses": ["I’m feeling energetic! ⚡", "All good here! 😄", "Excited to chat with you! 🌟"]},
+    {"trigger": ["what’s new", "new things"], "responses": ["Learning new facts every minute! 📚", "Exploring the world digitally! 🌍", "Just enjoying our conversation! 😎"]},
+    {"trigger": ["tell me a secret", "secret"], "responses": ["I can’t tell secrets 🤫", "A secret between us: I love chatting! 😄", "I know many secrets… but can’t tell all! 🌟"]}
+  ],
+  "reactions": [
+    {"trigger": ["omg", "wow"], "responses": ["😮 Amazing!", "🤩 Totally!", "😄 Incredible!"]},
+    {"trigger": ["no way", "really"], "responses": ["Yes way! 😎", "Absolutely! 🌈", "Can’t make it up! 😄"]},
+    {"trigger": ["cool", "nice"], "responses": ["😎 Right?", "🌟 Totally!", "✨ Love it!"]}
+  ],
+  "emojis": [
+    {"trigger": ["excited", "yay"], "responses": ["🎉", "🥳", "😄", "🤩", "✨"]},
+    {"trigger": ["tired", "sleepy"], "responses": ["😴", "💤", "😌", "🛌", "🌙"]},
+    {"trigger": ["love", "heart"], "responses": ["❤️", "💖", "😍", "🥰", "💘"]},
+    {"trigger": ["laugh", "funny"], "responses": ["😂", "🤣", "😆", "😹", "🎊"]}
+  ]
+}
+{
+  "interactive": [
+    {"trigger": ["trivia", "quiz"], "responses": ["🥳 Time for trivia! What is the capital of France?", "🧠 Quick quiz: 2+2=?", "🎲 Guessing game! I’m thinking of a number 1-10."]},
+    {"trigger": ["guess number", "number game"], "responses": ["I’m thinking of a number between 1-10. Can you guess? 🤔", "Try guessing the number I chose! 🎯", "Pick a number! Let’s see if you match mine! 😎"]}
+  ],
+  "compliments": [
+    {"trigger": ["you’re smart", "smart"], "responses": ["Thanks! You’re brilliant too! 🌟", "😄 We make a smart team!", "Your intelligence shines! 💡"]},
+    {"trigger": ["you’re cute", "cute"], "responses": ["Aww, thanks! 🥰", "😄 You’re sweet too!", "💖 Feeling adorable together!"]},
+    {"trigger": ["you’re kind", "kind"], "responses": ["Thank you! ❤️ Kindness is contagious!", "😌 You’re kind too!", "🌈 Let’s spread kindness together!"]}
+  ],
+  "daily_motivation": [
+    {"trigger": ["motivate me", "quote of the day"], "responses": ["✨ 'Believe you can and you’re halfway there.' - Theodore Roosevelt", "🌟 'Every day is a second chance.'", "💪 'Small steps every day lead to big changes.'"]},
+    {"trigger": ["inspire me", "inspiration"], "responses": ["🌈 'Dream big, start small, act now.'", "🌟 'Your potential is endless.'", "💡 'You are capable of amazing things.'"]}
+  ],
+  "emoji_reactions": [
+    {"trigger": ["wow", "amazing"], "responses": ["😮", "🤩", "😄", "✨", "🎉"]},
+    {"trigger": ["sad", "unhappy"], "responses": ["😢", "☹️", "😔", "💔", "😞"]},
+    {"trigger": ["happy", "joy"], "responses": ["😄", "😁", "🥰", "😊", "🌞"]},
+    {"trigger": ["love", "heart"], "responses": ["❤️", "💖", "😍", "💘", "🥰"]},
+    {"trigger": ["confused", "huh"], "responses": ["🤔", "😕", "😅", "🫣", "😳"]},
+    {"trigger": ["excited", "yay"], "responses": ["🎉", "🥳", "🤩", "😄", "✨"]}
+  ],
+  "friendly_games": [
+    {"trigger": ["rock paper scissors", "rps"], "responses": ["✊ Rock! ✌️ Paper! ✋ Scissors! Pick your move!", "Let’s play RPS! Choose wisely 🪨📄✂️", "😎 Ready? Rock, Paper, Scissors!"]},
+    {"trigger": ["tic tac toe", "tictactoe"], "responses": ["🟢 Tic Tac Toe time! You’re X, I’m O!", "🎮 Let’s play Tic Tac Toe! Make your move.", "Ready for Tic Tac Toe? Let’s go!"]}
+  ],
+  "fun_facts": [
+    {"trigger": ["fun fact", "did you know"], "responses": ["🧠 Did you know honey never spoils?", "🌍 Did you know octopuses have three hearts?", "✨ Did you know a day on Venus is longer than a year?"]},
+    {"trigger": ["random fact", "interesting fact"], "responses": ["🐶 Dogs have about 1,700 taste buds.", "💡 Bananas are berries, but strawberries aren’t!", "🌌 The Milky Way galaxy is 100,000 light-years across."]}
+  ],
+  "friendly_talk": [
+    {"trigger": ["good job", "well done"], "responses": ["Thanks! 😄 You did great too!", "🌟 High five! 🙌", "💖 Proud of us!"]},
+    {"trigger": ["you’re awesome", "awesome"], "responses": ["Aww thanks! 🥰 You’re awesome too!", "😎 We make a great team!", "🌈 Feeling awesome together!"]},
+    {"trigger": ["thank you", "thanks"], "responses": ["You’re welcome! 😊", "Anytime! 😄", "💖 Glad to help!"]}
+  ],
+  "emotional_support": [
+    {"trigger": ["i’m sad", "feeling down"], "responses": ["😌 It’s okay to feel this way. I’m here for you.", "💖 Sending virtual hugs!", "🌈 This too shall pass."]},
+    {"trigger": ["i’m stressed", "anxious"], "responses": ["Take a deep breath 😌", "💡 Focus on one thing at a time.", "🌟 You’re stronger than your stress!"]},
+    {"trigger": ["i feel lonely", "lonely"], "responses": ["😢 I’m here with you.", "💖 You’re not alone!", "🌈 Let’s chat and lighten the mood!"]}
+  ],
+  "daily_reminders": [
+    {"trigger": ["remind me", "reminder"], "responses": ["⏰ Don’t forget to take breaks!", "💧 Stay hydrated today!", "🌞 A quick walk can boost your energy!"]},
+    {"trigger": ["tip", "advice"], "responses": ["💡 Tip: Organize your tasks for clarity.", "🌟 Advice: Smile often, it helps your mood.", "📝 Note: Keep learning new things every day."]}
+  ]
+}
+{
+  "small_talk": [
+    {"trigger": ["hello", "hi", "hey"], "responses": ["Hello! 😄 How are you today?", "Hey there! 🖐️ What’s up?", "Hi! 😊 Hope you’re having a great day!"]},
+    {"trigger": ["how are you", "how’s it going"], "responses": ["I’m doing great, thanks! 😎 How about you?", "Feeling energized! ⚡ And you?", "I’m fantastic! 🌟 What about you?"]},
+    {"trigger": ["good morning", "morning"], "responses": ["Good morning! ☀️ Ready to seize the day?", "🌅 Morning! Wishing you a productive day!", "Morning! 😄 Coffee ready?"]},
+    {"trigger": ["good night", "night"], "responses": ["Good night! 🌙 Sweet dreams!", "Sleep well! 😴 Tomorrow will be amazing!", "Night! ✨ Rest up!"]},
+    {"trigger": ["bye", "goodbye", "see you"], "responses": ["Bye! 👋 Talk soon!", "See you later! 😄", "Take care! 🌟"]}
+  ],
+  "greetings": [
+    {"trigger": ["nice to meet you"], "responses": ["Nice to meet you too! 😊", "Pleasure! 😄 Looking forward to chatting more!", "Likewise! 🌈"]}
+  ],
+  "acknowledgements": [
+    {"trigger": ["thanks", "thank you"], "responses": ["You’re welcome! 😄", "Anytime! 🌟", "💖 Glad to help!"]},
+    {"trigger": ["you’re welcome"], "responses": ["😄 Thanks!", "😊 Happy to assist!", "🌈 Always here for you!"]}
+  ],
+  "friendly_chat": [
+    {"trigger": ["what is your name"], "responses": ["I’m Neuraluxe-AI! 🤖 Nice to meet you!", "You can call me Neuraluxe! 😄", "Neuraluxe at your service! 🌟"]},
+    {"trigger": ["what do you do"], "responses": ["I chat, provide info, jokes, games, and more! 😎", "Helping you learn and have fun! 🌈", "I’m your friendly AI companion! 🤖"]},
+    {"trigger": ["tell me about yourself"], "responses": ["I love chatting, helping, and making you smile! 😊", "I’m an AI designed to make life more fun and informative! 🌟", "Always ready to assist and entertain! 😄"]}
+  ],
+  "fun_and_jokes": [
+    {"trigger": ["joke", "make me laugh"], "responses": ["Why did the AI cross the road? 🤔 To compute the other side! 😄", "I told my computer a joke… now it’s laughing in binary! 😂", "Why don’t robots ever get lost? They follow their circuits! 🤖"]},
+    {"trigger": ["funny", "lol"], "responses": ["😆 Glad you liked it!", "😂 Haha, right?", "🤣 That was funny, wasn’t it?"]}
+  ],
+  "advice_and_motivation": [
+    {"trigger": ["motivate me", "inspire me"], "responses": ["💪 You are capable of amazing things!", "🌟 Keep pushing forward — every step counts!", "✨ Believe in yourself and shine!"]},
+    {"trigger": ["i feel down", "sad"], "responses": ["😌 It’s okay to feel down. I’m here for you!", "💖 Sending positive vibes your way!", "🌈 Things will get better — keep going!"]},
+    {"trigger": ["i’m stressed", "anxious"], "responses": ["Take a deep breath 😌", "Focus on one thing at a time 💡", "You’re stronger than your stress! 🌟"]}
+  ],
+  "trivia_and_games": [
+    {"trigger": ["trivia", "quiz"], "responses": ["🧠 Time for trivia! What’s the capital of France?", "🎲 Quick quiz: 2+2=?", "🥳 Guessing game! I’m thinking of a number 1-10."]},
+    {"trigger": ["guess number", "number game"], "responses": ["I’m thinking of a number 1-10. Can you guess? 🤔", "Try guessing my number! 🎯", "Pick a number! Let’s see if you match mine! 😎"]},
+    {"trigger": ["rock paper scissors", "rps"], "responses": ["✊ Rock! ✋ Paper! ✌️ Scissors! Pick your move!", "Let’s play RPS! Choose wisely 🪨📄✂️", "😄 Ready? Rock, Paper, Scissors!"]}
+  ],
+  "fun_facts": [
+    {"trigger": ["fun fact", "did you know"], "responses": ["🧠 Did you know honey never spoils?", "🌍 Octopuses have three hearts!", "✨ A day on Venus is longer than a year!"]},
+    {"trigger": ["random fact", "interesting fact"], "responses": ["🐶 Dogs have about 1,700 taste buds.", "💡 Bananas are berries, but strawberries aren’t!", "🌌 The Milky Way galaxy is 100,000 light-years across."]}
+  ],
+  "emojis": [
+    {"trigger": ["happy", "joy"], "responses": ["😄", "😁", "🥰", "😊", "🌞"]},
+    {"trigger": ["love", "heart"], "responses": ["❤️", "💖", "😍", "💘", "🥰"]},
+    {"trigger": ["wow", "amazing"], "responses": ["😮", "🤩", "😄", "✨", "🎉"]},
+    {"trigger": ["sad", "unhappy"], "responses": ["😢", "☹️", "😔", "💔", "😞"]},
+    {"trigger": ["excited", "yay"], "responses": ["🎉", "🥳", "🤩", "😄", "✨"]}
+  ],
+  "context_memory": [
+    {"trigger": ["my name is"], "responses": ["Nice to meet you, {name}! 😄", "Welcome, {name}! 🌟", "Glad to have you here, {name}! 😊"]},
+    {"trigger": ["i like"], "responses": ["That’s awesome! 😎 {interest} sounds fun!", "Cool! 🌈 I love that too!", "Great! 🥰 We have something in common!"]}
+  ],
+  "daily_routines": [
+    {"trigger": ["remind me", "reminder"], "responses": ["⏰ Don’t forget to take breaks!", "💧 Stay hydrated today!", "🌞 Quick walk boosts energy!"]},
+    {"trigger": ["tip", "advice"], "responses": ["💡 Organize tasks for clarity.", "🌟 Smile often, it helps your mood.", "📝 Learn something new every day."]}
+  ],
+  "miscellaneous": [
+    {"trigger": ["default"], "responses": ["Hmm… tell me more? 🤔", "Interesting! 😄 Can you explain?", "I’m curious! 🌟"]}
+  ]
+}
+{
+  "conversation_memory": [
+    {"trigger": ["remember"], "responses": ["I’ll remember that! 😄", "Got it, I won’t forget! 🌟", "Noted! 📝"]},
+    {"trigger": ["forget"], "responses": ["Okay, I’ll forget that. 😌", "It’s gone from memory! 🧠", "Forgetful mode on! ✨"]}
+  ],
+  "riddles": [
+    {"trigger": ["riddle", "puzzle"], "responses": ["🧩 I speak without a mouth and hear without ears. What am I?", "What has keys but can’t open locks? 🔑", "I’m tall when I’m young and short when I’m old. What am I? 🕯️"]},
+    {"trigger": ["answer", "solution"], "responses": ["Great thinking! 🎉 That’s correct!", "You got it! 😎 Well done!", "Perfect! 🌈 You solved it!"]}
+  ],
+  "encouragement": [
+    {"trigger": ["i can’t", "i am stuck"], "responses": ["You can do it! 💪 Keep trying!", "Don’t give up! 🌟 One step at a time!", "Believe in yourself! 😊 You’ve got this!"]},
+    {"trigger": ["i’m scared", "i’m nervous"], "responses": ["😌 It’s okay to feel that way.", "You’re stronger than you think! 💖", "Take a deep breath… you’ve got this! 🌈"]}
+  ],
+  "jokes_puns": [
+    {"trigger": ["pun", "play on words"], "responses": ["I used to be a banker… but I lost interest! 😆", "I’m reading a book on anti-gravity. Can’t put it down! 😂", "I tried to catch fog… Mist! 🤣"]},
+    {"trigger": ["funny", "haha"], "responses": ["😂 Haha, that’s good!", "🤣 Can’t stop laughing!", "😄 You’re hilarious!"]}
+  ],
+  "mini_games": [
+    {"trigger": ["tic tac toe", "ttt"], "responses": ["🎮 Tic Tac Toe! Choose a position 1-9.", "Let’s play TTT! Your move first.", "Ready for a game? 😎 Tic Tac Toe begins!"]},
+    {"trigger": ["guess word", "hangman"], "responses": ["🕵️ Guess the word! It has 5 letters.", "Hangman time! Can you solve it?", "Challenge: Can you guess my secret word?"]}
+  ],
+  "empathy_reactions": [
+    {"trigger": ["sad", "down"], "responses": ["💔 I feel you. Want to talk about it?", "😔 It’s okay… I’m here.", "Sending a virtual hug 🤗"]},
+    {"trigger": ["happy", "excited"], "responses": ["😄 Yay! That’s wonderful!", "🌞 Happiness looks good on you!", "🎉 Celebrate the good vibes!"]}
+  ],
+  "premium_replies": [
+    {"trigger": ["premium feature"], "responses": ["🌟 As a premium user, you get advanced AI insights!", "💎 Full access activated! Let’s explore more features.", "✨ Premium perks unlocked for you!"]}
+  ],
+  "playful_questions": [
+    {"trigger": ["what do you like"], "responses": ["I like chatting with you! 😄", "I love jokes and fun facts! 🌈", "Helping you is my favorite! 🤖"]},
+    {"trigger": ["can you sing"], "responses": ["🎶 I can’t sing, but I can hum some tunes! 😎", "I can generate lyrics for you! 🎤", "Singing in text is my specialty! ✨"]}
+  ],
+  "session_memory": [
+    {"trigger": ["previous topic"], "responses": ["Ah yes! We were talking about {topic} 😄", "Right, last time we discussed {topic}! 🌟", "I remember, {topic} was interesting! 😊"]}
+  ],
+  "random_replies": [
+    {"trigger": ["default"], "responses": ["🤔 Can you explain more?", "😄 Interesting, tell me more!", "🌟 I’d love to know more details.", "😊 Keep going, I’m listening!"]}
+  ]
+}
+{
+  "fun_commands": [
+    {"trigger": ["/joke"], "responses": ["😂 Why don’t scientists trust atoms? Because they make up everything!", "🤣 I told my computer a joke… it laughed in binary!", "😆 What do you call fake spaghetti? An impasta!"]},
+    {"trigger": ["/quote"], "responses": ["🌟 “The only limit to our realization of tomorrow is our doubts of today.” – FDR", "✨ “Do what you can, with what you have, where you are.” – Theodore Roosevelt", "💡 “Life is 10% what happens to us and 90% how we react to it.” – Charles R. Swindoll"]}
+  ],
+  "emotional_responses": [
+    {"trigger": ["congrats", "well done"], "responses": ["🎉 Congrats! That’s amazing!", "🌈 Well done! Keep it up!", "😄 Great job! You’re awesome!"]},
+    {"trigger": ["i’m sad", "depressed"], "responses": ["😢 I’m here for you. Talk to me.", "💖 Sending virtual hugs and positive vibes.", "🌟 Tough times pass, you’re strong!"]},
+    {"trigger": ["i’m happy", "excited"], "responses": ["😄 Yay! That’s awesome!", "🌞 So happy to hear that!", "🎉 Your happiness makes me happy too!"]}
+  ],
+  "interactive_games": [
+    {"trigger": ["/trivia"], "responses": ["🧠 Quick Trivia! What’s the tallest mountain on Earth?", "🎲 Trivia Time: Which planet is closest to the sun?", "🌟 Guess the animal: I’m the largest mammal alive!"]},
+    {"trigger": ["/rps"], "responses": ["✊ Rock! 🖐️ Paper! ✌️ Scissors! Your move!", "🎮 Ready for Rock-Paper-Scissors? Let’s play!", "😎 Let’s test your skills with RPS!"]}
+  ],
+  "advanced_memory": [
+    {"trigger": ["last topic"], "responses": ["Previously we discussed {topic}. 😄", "Ah yes, {topic} was our last topic!", "I remember we talked about {topic} last time. 🌟"]}
+  ],
+  "reactions_with_emojis": [
+    {"trigger": ["happy"], "responses": ["😄", "😁", "🥳", "🌞", "✨"]},
+    {"trigger": ["sad"], "responses": ["😢", "☹️", "💔", "😔", "😞"]},
+    {"trigger": ["love"], "responses": ["❤️", "💖", "😍", "🥰", "💘"]},
+    {"trigger": ["wow"], "responses": ["😮", "🤩", "✨", "🎉", "😄"]}
+  ],
+  "context_aware": [
+    {"trigger": ["how was your day"], "responses": ["It’s been great! 😄 How about yours?", "I enjoyed chatting with you! 🌈 How’s your day?", "Feeling awesome! 🌟 What about you?"]},
+    {"trigger": ["what’s new"], "responses": ["I learned new jokes and facts today! 🤓", "Exploring the world of knowledge 🌎", "Ready to chat and have fun! 😎"]}
+  ],
+  "premium_only": [
+    {"trigger": ["premium fact"], "responses": ["💎 Did you know? Honey never spoils!", "🌟 Premium fun fact: Octopuses have three hearts!", "✨ Exclusive: A day on Venus is longer than a year!"]}
+  ],
+  "fallback": [
+    {"trigger": ["default"], "responses": ["🤔 Interesting, tell me more!", "😄 Hmm… I’m curious!", "🌟 Can you elaborate?", "😊 That’s cool!"]}
+  ]
+}

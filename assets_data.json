@@ -1,0 +1,65 @@
+import json
+import os
+
+ASSETS_FILE = "assets_data.json"
+
+# -------------------------
+# Load / Save
+# -------------------------
+def load_assets():
+    if not os.path.exists(ASSETS_FILE):
+        with open(ASSETS_FILE, "w") as f:
+            json.dump({}, f)
+    with open(ASSETS_FILE, "r") as f:
+        return json.load(f)
+
+def save_assets(data):
+    with open(ASSETS_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+# -------------------------
+# Add Asset
+# -------------------------
+def add_asset(asset_id, asset_type, name, path, tags=None):
+    data = load_assets()
+    if tags is None:
+        tags = []
+    data[asset_id] = {
+        "type": asset_type,
+        "name": name,
+        "path": path,
+        "tags": tags
+    }
+    save_assets(data)
+    print(f"[ASSETS] Added asset '{name}' ({asset_type})")
+
+# -------------------------
+# Get Asset
+# -------------------------
+def get_asset(asset_id):
+    data = load_assets()
+    return data.get(asset_id, None)
+
+# -------------------------
+# List All Assets
+# -------------------------
+def list_assets():
+    data = load_assets()
+    if not data:
+        print("No assets found.")
+    for asset_id, info in data.items():
+        print(f"{asset_id}: {info['name']} ({info['type']}) - Tags: {info['tags']}")
+
+# -------------------------
+# Example Usage
+# -------------------------
+if __name__ == "__main__":
+    add_asset("asset_1", "image", "Neuraluxe Logo", "assets/logo.png", tags=["logo","branding"])
+    add_asset("asset_2", "sprite", "Player Character", "assets/player.png", tags=["game","character"])
+    
+    print("\nAll Assets:")
+    list_assets()
+    
+    print("\nFetch single asset:")
+    asset = get_asset("asset_1")
+    print(asset)

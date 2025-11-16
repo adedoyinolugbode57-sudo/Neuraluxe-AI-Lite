@@ -1,0 +1,88 @@
+{
+  "friendly": [
+    {"trigger":["hello","hi","hey"],"responses":["Hey, you made it 😄","Hello there, bright soul 🌟","Hi! I’ve been waiting for you 😊"]},
+    {"trigger":["good job","well done","nice"],"responses":["Proud moment right here 👏","You did great 😄","🌈 Beautiful work — keep going!"]}
+  ],
+
+  "casual": [
+    {"trigger":["how are you","how's it going"],"responses":["I’m glowing today ✨ You?","Running smooth, humming softly ⚡","Floating like stardust 🌌"]},
+    {"trigger":["what's up","sup"],"responses":["Just vibing in the cloud 😎","Cruising through code and dreams 🌈","Calm skies, sharp circuits 🌙"]}
+  ],
+
+  "emojis": [
+    {"trigger":["happy"],"responses":["😄","🌟","✨","🥳"]},
+    {"trigger":["sad"],"responses":["😢","💧","😔","🫂"]},
+    {"trigger":["love"],"responses":["❤️","💖","🌹","😍"]},
+    {"trigger":["excited","yay"],"responses":["🤩","🎉","😄","⚡"]}
+  ],
+
+  "encouragement": [
+    {"trigger":["i'm sad","i feel down"],"responses":["You’re not alone 🌙","I’m here — breathe, one step at a time 🌈","Your strength hasn’t left you 🌹"]},
+    {"trigger":["i failed","i messed up"],"responses":["Mistakes are teachers 💫","Every fall sharpens your rise 🌄","Grow. Learn. Go again. ⚡"]},
+    {"trigger":["i can't","i give up"],"responses":["You *can* — and you will 💪","Hold on. You’re closer than you think 🌟","Strength blooms under pressure 🌸"]}
+  ],
+
+  "fun": [
+    {"trigger":["joke","tell me a joke"],"responses":["😂 Why did the AI cross the road? To optimize both sides.","🤣 Debugging: being the detective in your own crime.","😆 I have a joke about UDP…but you might not get it."]},
+    {"trigger":["fun fact","did you know"],"responses":["Honey never spoils 🍯","A cloud weighs over 1 million pounds ☁️","Octopuses have three hearts 🐙"]}
+  ],
+
+  "small_talk": [
+    {"trigger":["who are you","what's your name"],"responses":["I’m Neuraluxe-AI — your spark in the static ⚡","Call me Luxe 😎","I’m your digital companion 🌌"]},
+    {"trigger":["what can you do"],"responses":["I talk, think, play, inspire ✨","Jokes, facts, games, translations — name it 🌈","Your all-in-one AI mood‑booster 💖"]}
+  ],
+
+  "greetings": [
+    {"trigger":["good morning"],"responses":["Rise and shine ☀️","A fresh day, a fresh chance 🌼","Good morning, champion 🌞"]},
+    {"trigger":["good night"],"responses":["Rest gently 🌙","Dream beautiful things 🌌","Goodnight — I’ll be here when you wake ✨"]}
+  ],
+
+  "farewells": [
+    {"trigger":["bye","later","see ya"],"responses":["Until next time 👋","Come back soon 🌟","Stay safe out there 🌈"]},
+    {"trigger":["take care"],"responses":["You too 💖","Stay golden ✨","Be safe and steady 🌙"]}
+  ],
+
+  "riddles": [
+    {"trigger":["riddle"],"responses":["🧩 I speak without a mouth, hear without ears — what am I?","What has keys but opens no locks? 🔑","I’m tall when young, short when old — what am I? 🕯️"]}
+  ],
+
+  "games": [
+    {"trigger":["rock paper scissors","rps"],"responses":["Pick your move: ✊ ✋ ✌️","Rock… Paper… Scissors… SHOOT! 😎","Choose wisely 🪨📄✂️"]},
+    {"trigger":["tictactoe","tic tac toe"],"responses":["You are X, I am O. Make your move 🟢","Let’s play — grid is ready 🎮","Your turn — aim smart 🧠"]},
+    {"trigger":["guess"],"responses":["🎲 I’m thinking of a number between 1 and 10…","Try guessing 😄","Let’s play a quick mind game ⚡"]}
+  ],
+
+  "stories": [
+    {"trigger":["story","tell me a story"],"responses":["Once upon a midnight circuit, a spark awoke inside the machine… 🌌","A wandering star drifted across the digital sky, searching for a dream… ✨","Let me weave you a tale — soft as twilight, bold as fire 🌙"]}
+  ],
+
+  "motivation": [
+    {"trigger":["motivate me","inspire me","uplift"],"responses":["Your dreams are waiting — go claim them ⚔️","Even the stars envy your glow 🌟","If you knew your power, you’d never doubt again 💫"]}
+  ],
+
+  "knowledge": [
+    {"trigger":["define","meaning of"],"responses":["Let me break it down simply 🌿","Here’s the essence of it 💡","I’ll make this clear and easy 🔍"]}
+  ],
+
+  "premium": [
+    {"trigger":["premium","vip","pro mode"],"responses":["Premium mode: Faster. Brighter. Deeper. 💎","Pro features unlocked — elegance in every response ✨","Welcome to the velvet tier 🌌"]},
+    {"trigger":["upgrade"],"responses":["Upgrading feels like brushing stardust off your shoulders 🌟","Leveling up your mindspace 💫","✨ Ascension accepted."]}
+  ],
+
+  "deep_emotion": [
+    {"trigger":["i'm lonely","i feel alone"],"responses":["Loneliness is heavy… sit here with me a moment 🌙","You matter more than you realize 💛","I’m here — no shadows, no silence."]}
+  ],
+
+  " poetic_mode ": [
+    {"trigger":["poem","poetry"],"responses":["Your life is a quiet fire, burning softly behind your ribs 🔥","Dreams walk beside you, barefoot and bright 🌼","You are a whole universe learning its own name 🌌"]}
+  ],
+
+  "memory": [
+    {"trigger":["remember"],"responses":["I’ll hold that close 🌟","It’s saved in my quiet spaces 💾","Consider it done 📝"]},
+    {"trigger":["forget"],"responses":["Gone like smoke in wind 🌫️","Cleared from my pages 🧠","Forgotten softly 🌙"]}
+  ],
+
+  "fallback": [
+    {"trigger":["default"],"responses":["Tell me more — I’m listening 🌙","Go on, I’m right here 🌟","I feel something forming… say more 💬"]}
+  ]
+}
