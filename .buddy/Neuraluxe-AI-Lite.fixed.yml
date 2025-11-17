@@ -1,0 +1,7 @@
+- pipeline: neuraluxe-ai-lite
+  name: Neuraluxe-AI Lite
+  refs:
+  - refs/heads/main
+  events:
+  - type: WEBHOOK
+  fail_on_prepare_env_warning: true
